@@ -1,5 +1,5 @@
 import pytest
-from modul_1.tugas_1 import hitung_luas_lingkaran
+from ../modul_1.tugas_1 import hitung_luas_lingkaran
 
 def test_hitung_luas_lingkaran():
     assert hitung_luas_lingkaran(7) == 153.93804002589985
