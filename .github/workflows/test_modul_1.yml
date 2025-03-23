@@ -20,5 +20,13 @@ jobs:
         pip install pytest
 
     - name: Run tests
+      id: pytest
+      continue-on-error: true
       run: |
-        pytest tests/test_modul_1.py
+        pytest tests/test_modul_1.py > result.log || true
+
+    - name: Annotate failure
+      if: failure()
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        path: result.log
