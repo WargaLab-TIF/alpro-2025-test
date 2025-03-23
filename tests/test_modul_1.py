@@ -1,5 +1,11 @@
+import sys
+import os
 import pytest
-from ../modul_1.tugas_1 import hitung_luas_lingkaran
+
+# Menambahkan path modul-1 ke sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../modul-1')))
+
+from tugas_1 import hitung_luas_lingkaran
 
 def test_hitung_luas_lingkaran():
     assert hitung_luas_lingkaran(7) == 153.93804002589985
