@@ -1,6 +1,6 @@
 # Praktikum Algoritma Pemrograman
 
-Selamat datang di repository praktikum mata kuliah Algoritma Pemrograman. Repository ini digunakan untuk mengumpulkan tugas-tugas praktikum yang diberikan selama perkuliahan.
+Repository ini digunakan untuk mengumpulkan tugas-tugas praktikum yang diberikan selama perkuliahan.
 
 ## Struktur Repository
 
