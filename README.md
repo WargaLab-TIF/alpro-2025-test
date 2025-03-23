@@ -4,7 +4,7 @@ Selamat datang di repository praktikum mata kuliah Algoritma Pemrograman. Reposi
 
 ## Struktur Repository
 
-Berikut adalah struktur folder yang akan digunakan dalam repository ini:
+Berikut adalah struktur folder yang akan digunakan dalam repository ini, klik folder modul untuk melihat tugas dan instukrsi lebih detil:
 
 ```
 algoritma-pemrograman/
@@ -18,13 +18,6 @@ algoritma-pemrograman/
 │   └── test_modul_2.py # File test case untuk modul-2
 └── ...
 ```
-
-## Instruksi Umum
-
-1. **Setiap modul akan memiliki folder tersendiri**, misalnya `modul-1/`, `modul-2/`, dan seterusnya.
-2. **Setiap folder modul akan berisi file README.md** yang berisi deskripsi tugas dan spesifikasi yang harus diimplementasikan.
-3. **Praktikan harus mengerjakan tugas di file yang sudah disediakan**, misalnya `tugas-1.py` untuk modul-1.
-4. **Praktikan harus memastikan kode mereka lulus semua test case** yang disediakan dalam file `test_modul_X.py`.
 
 ## Tata Cara Pengumpulan
 
@@ -40,32 +33,3 @@ Penilaian akan dilakukan berdasarkan:
 - Kebenaran implementasi fungsi sesuai dengan deskripsi tugas.
 - Keberhasilan kode dalam melewati semua test case yang disediakan.
 - Kerapihan dan kebersihan kode.
-
-## Daftar Modul
-
-### Modul-1: Menghitung Luas Lingkaran
-
-**Deskripsi Tugas:**
-Buatkan fungsi untuk menghitung luas lingkaran dengan parameter jari-jari lingkaran.
-
-**Spesifikasi Fungsi:**
-- Nama fungsi: `hitung_luas_lingkaran`
-- Parameter: `jari_jari` (float)
-- Return: `luas` (float)
-
-**Contoh Penggunaan:**
-```python
-def hitung_luas_lingkaran(jari_jari):
-    # kode fungsi disini
-    pass
-
-# Contoh penggunaan:
-print(hitung_luas_lingkaran(7))  # Output: 153.93804002589985
-```
-
-**Pengumpulan Tugas:**
-- Letakkan file dengan nama `tugas-1.py` di dalam folder `modul-1`.
-- Commit dan push tugas Anda ke repository GitHub Anda.
-- Buat pull request untuk mengumpulkan tugas Anda.
-
-Selamat mengerjakan dan semoga sukses!
