@@ -8,6 +8,9 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../m
 from tugas_1 import hitung_luas_lingkaran
 
 def test_hitung_luas_lingkaran():
-    assert hitung_luas_lingkaran(7) == 153.93804002589985
-    assert hitung_luas_lingkaran(0) == 0.0
-    assert hitung_luas_lingkaran(1) == 3.141592653589793
+    try:
+        assert hitung_luas_lingkaran(7) == 153.93804002589985, "\n\n❌ Jawaban Salah: Luas lingkaran dengan jari-jari 7 seharusnya 153.93804002589985\n"
+        assert hitung_luas_lingkaran(0) == 0.0, "\n\n❌ Jawaban Salah: Luas lingkaran dengan jari-jari 0 seharusnya 0.0\n"
+        assert hitung_luas_lingkaran(1) == 3.141592653589793, "\n\n❌ Jawaban Salah: Luas lingkaran dengan jari-jari 1 seharusnya 3.141592653589793\n"
+    except AssertionError as e:
+        pytest.fail(str(e), pytrace=True)
